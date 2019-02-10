@@ -1,0 +1,235 @@
+body{
+	font-family: fontmania !important;
+	background: rgba(23, 0, 54, 0.1) !important;
+}
+@font-face {
+  font-family: fontmania;
+  src: url(images/fonts/Comfortaa-bold.ttf);
+}
+@font-face {
+  font-family: fontman;
+  src: url(images/fonts/nature.ttf);
+}
+@font-face {
+  font-family: fonten;
+  src: url(images/fonts/bellerose.ttf);
+}
+
+
+#recherche {
+	width: 200px;
+	height: 30	px;
+    border: 1px solid pink;
+    box-shadow: 0 0 0 2px #f48fb1;
+    float: left;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+#logo {
+	width: auto;
+	height: 60px;
+}
+#header1 {
+	margin-top: 20px;
+}
+#navbar {
+	background-color: white !important;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	float: left;
+	padding-left: 55px;
+	width: auto;
+	padding-right: 10px;
+}
+.a1 {
+	color: white !important;
+	text-decoration: none;
+	font-size: 18px;
+}
+section .a1:hover {
+	color: #ff0066 !important;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 18px;
+}
+#menu {
+	padding-top: 12px;
+	background-color: gray;
+	height: 50px;
+
+}
+#acceuil{
+	background-image: url(images/bkg.jpg);
+	background-attachment: fixed;
+	background-size: cover; 
+	padding-top: 150px;
+	margin-top: 10px;
+	padding-bottom: 150px;
+	margin-bottom: 20px;
+}
+
+#boutique{
+	color: white !important;
+	padding-bottom: 25px;
+	font-family: fonten;
+	font-weight: bold;
+	font-size: 50px;
+	animation: pipika 2s infinite;
+}
+
+@-webkit-keyframes pipika{
+		from {	
+			color: white;
+		}
+		to {
+			color: #ff0072;
+			font-size: 55px;
+		}
+	}
+}
+
+@-webkit-keyframes pipika{
+		from {
+			color: white;
+		}
+		to {
+			color: #ff0072;
+			
+		}
+	}
+}
+
+#bouton{
+	color: white;
+	border-color: white;
+	width: 200px;
+	font-weight: bold;
+	border-radius: 10px;
+}
+
+#bouton a{
+	text-decoration: none;
+	color: white !important;
+}
+
+#bouton a:{
+	text-decoration: none;
+	color: white !important;
+}
+
+#article{
+	margin-top: 25px;	
+	background-color: white;
+	padding-bottom: 15px;
+}
+
+#article p{
+	color: gray;
+	font-size: 20px;
+	margin-top: 20px;
+	font-family: fontmania;
+}
+
+.prix{
+	color: #ff0066;
+	font-size: 18px;
+
+}
+
+#article button{
+	background-color: #ff0066;
+	color: white;
+	border-color: #ff0066;
+	border-radius: 5px;
+}
+
+#article button:hover{
+	background-color: white;
+	color: #ff0066;
+	border-color: #ff0066;
+}
+ #titre-article{
+ 	padding-top: 25px;
+ 	padding-bottom: 25px;
+ 	color: #ff0066;
+ }
+#contact {
+	background-image: url("images/bg.jpg");
+	margin-top: 30px;
+	padding-bottom: 25px;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+form {
+	padding-left: 30px;
+	padding-top: 30px;
+}
+footer {
+	margin-top: 15px;
+	text-align: center;
+	background-color: gray;
+	height: 50px;
+	
+}
+footer p{
+	line-height: 28px;
+	padding-top: 10px;
+	font-size: 14px;
+}
+td input {
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+}
+td {
+	padding-top: 10px;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+}
+td button {
+	background-color: gray;
+	color: white;
+	width: 125px;
+	height: 30px;
+	border-color: grey;
+	border-radius: 5px; 
+}
+td button:hover {
+	border-color: white;
+	color: gray;
+	background-color: white;
+}
+textarea {
+	width: 300px;
+	height: 100px;
+	border-radius: 5px;
+}
+#con {
+	padding-left: 100px;
+	padding-top: 30px;
+}
+#con a {
+ 	text-decoration: none;
+	color: white !important;
+}
+#con td {
+	padding-left: 10px;
+}	
+#articles2 {
+	color: gray;
+}
+#articles3 {
+	padding-top: 30px;
+	color: white;
+}
+#article a{
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center !important;
+
+}	
